@@ -1,0 +1,156 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #B2ACA1;
+}
+
+
+
+.navbar {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    background-color: #606060;
+}
+
+
+.da {
+    display: inline-block;
+    color:#445760;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+    margin-left: 20px;
+}
+.da:after {
+    background-color: #FFFFFF;
+    display: block;
+    content: "";
+    height: 1.5px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.da:hover:after,
+.da:focus:after {
+    width: 100%;
+}
+
+.do {
+    margin-top: 11px;
+    padding-bottom: 11px;
+}
+.or {
+    font-family: sans-serif;
+
+}
+#clock {
+    margin-left: 18px;
+    color:#fff;
+}
+.gru {
+    background-image: url(круг1.jpg);
+    width: 100%;
+    height: 1140px;
+    background-position: center center;
+    background-size: cover;
+}
+.maw {
+    padding-top: 295px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.ar h2{
+    font-size:33px;
+    font-family: Trebuchet MS, sans-serif;
+    color:#FDD900;
+    text-shadow: #606060 1px 1px 1px;
+}
+.ara h2{
+    font-size:33px;
+    font-family: Trebuchet MS, sans-serif;
+    color:#CA1C1E;
+    text-shadow: #606060 1px 1px 1px;
+}
+.aru h2{
+    font-size:33px;
+    font-family: Trebuchet MS, sans-serif;
+    color:#FDD900;
+    text-shadow: #606060 1px 1px 1px;
+}
+.ara {
+    margin-top: 100px;
+}
+.ar hr {
+    height: 2px;
+}
+
+.conec {
+    background-color: #445760;
+}
+.soc {
+    text-align: center;
+    margin-top:50px;
+    padding-bottom: 30px;
+}
+
+
+.vk {
+    padding-bottom: 20px;
+}
+
+
+
+.sss {
+    color:#FFFFFF;
+    font-size: 21px;
+    padding: 18px;
+}
+.sss:hover {
+    text-decoration: none;
+    color:hsl(0, 0%, 71%);
+    font-size: 22px;
+}
+p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #C7A94E;
+    text-shadow:#606060 1px 1px 1px ;
+}
+@media screen and (max-width: 760px){
+    .ar {
+        margin-top: -288px;
+        margin-right: 20px;
+    }
+    .ara {
+        margin-top: 110px;
+        width: 200px;
+       
+    }
+    .aru {
+        margin-right: 150px;
+        height: 200px;
+        
+    }
+    .aru h2{
+        font-size:28px;
+        font-family: Trebuchet MS, sans-serif;
+        color:#FDD900;
+        text-shadow: #606060 1px 1px 1px;
+    }
+    .ara h2{
+        font-size:28px;
+        font-family: Trebuchet MS, sans-serif;
+        color:#CA1C1E;
+        text-shadow: #606060 1px 1px 1px;
+    }
+}
